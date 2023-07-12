@@ -34,7 +34,7 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
     
     def mousePressEvent(self, event):
         if event.button() == QtCore.Qt.LeftButton:
-            print("单击鼠标左键")
+            print("单击鼠标左键2")
 
         
 if __name__ == '__main__':
